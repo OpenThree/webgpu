@@ -14,7 +14,7 @@ export default [
                 id: 'testWebgpu',
                 name: 'WebGPU测试',
                 name_en: 'WebGPU Test',
-                codeUrl: HOST + 'examples/introduction/testWebgpu.js',
+                codeUrl: HOST + 'three-examples/introduction/testWebgpu.js',
             }
         ]
     },

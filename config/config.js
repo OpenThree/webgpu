@@ -1,5 +1,6 @@
 import './lang.js';
 import threeExamples from "./three-examples.js";
+import babylonExamples from "./babylon-examples.js";
 import githubExamples from "./github-examples.js";
 import threeCesiumAuthors from "./author.js";
 import threeCesiumLinks from "./links.js";
@@ -41,6 +42,15 @@ window.THREE_CESIUM_NAVIGATION = [
                 "tweakpane": HOST + "js/tweakpane.min.js",
                 "@tweenjs/tween.js": HOST + "js/tween.esm.js"
             }
+        }
+    },
+    {
+        name: "BabylonJS",
+        label: "Babylon JS案例",
+        label_en: "Babylon JS",
+        examples: babylonExamples,
+        inject: {
+            src: ["https://cdn.babylonjs.com/babylon.js"],
         }
     },
     {
