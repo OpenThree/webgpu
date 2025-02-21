@@ -12,13 +12,18 @@ export default {
     links: [
 
         {
-            name: '📚Documents',
-            url: 'https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene'
+            name: '💎WebGL',
+            url: 'https://openthree.github.io/three-cesium-examples/'
         },
-        
+
         {
-            name: '🐘Examples',
-            url: 'https://threejs.org/examples/#webgl_animation_keyframes',
+            name: '🍏Three',
+            url: 'https://threejs.org/examples/',
+        },
+
+        {
+            name: '🍎Babylon',
+            url: 'https://www.babylonjs.com/featureDemos/',
         },
 
         {

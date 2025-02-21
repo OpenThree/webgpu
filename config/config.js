@@ -46,7 +46,7 @@ window.THREE_CESIUM_NAVIGATION = [
     },
     {
         name: "BabylonJS",
-        label: "Babylon JS案例",
+        label: "Babylon js案例",
         label_en: "Babylon JS",
         examples: babylonExamples,
         inject: {
