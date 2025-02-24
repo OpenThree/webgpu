@@ -1,8 +1,5 @@
 
-const canvas = document.createElement('canvas');
-canvas.style.width = '100%';
-canvas.style.height = '100%'
-document.getElementById("box").appendChild(canvas);
+const canvas = document.getElementById("box");
 
 // 创建引擎
 const engine = new BABYLON.WebGPUEngine(canvas);
